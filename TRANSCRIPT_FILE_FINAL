@@ -1,0 +1,109 @@
+couldn't open "transcript": permission denied
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2024.2 win64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading project AI_ML_PROJECT_FINAL
+# Compile of fitness_calculator.sv was successful.
+# Compile of genetic_top.sv was successful.
+# Compile of genetic_top_tb.sv was successful.
+# Compile of mate_unit.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.genetic_top_tb -voptargs=+acc
+# vsim -gui work.genetic_top_tb -voptargs="+acc" 
+# Start time: 11:14:29 on Jun 15,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt4
+# Loading sv_std.std
+# Loading work.genetic_top_tb(fast)
+# Loading work.genetic_top(fast)
+# Loading work.fitness_calculator(fast)
+# Loading work.sort_population(fast)
+# Loading work.mate_unit(fast)
+add wave -position insertpoint sim:/genetic_top_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sdumpala  Hostname: REMOTELAB01  ProcessID: 23812
+#           Attempting to use alternate WLF file "./wlftdcge2c".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdcge2c
+add wave -position insertpoint sim:/genetic_top_tb/DUT/*
+run -all
+# [GEN 1] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 1] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 1] Mating Done in 28 cycles (280.0 ns)
+# [GEN 2] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 2] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 2] Mating Done in 28 cycles (280.0 ns)
+# [GEN 3] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 3] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 3] Mating Done in 28 cycles (280.0 ns)
+# [GEN 4] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 4] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 4] Mating Done in 28 cycles (280.0 ns)
+# [GEN 5] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 5] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 5] Mating Done in 28 cycles (280.0 ns)
+# [GEN 6] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 6] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 6] Mating Done in 28 cycles (280.0 ns)
+# [GEN 7] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 7] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 7] Mating Done in 28 cycles (280.0 ns)
+# [GEN 8] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 8] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 8] Mating Done in 28 cycles (280.0 ns)
+# [GEN 9] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 9] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 9] Mating Done in 28 cycles (280.0 ns)
+# [GEN 10] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 10] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 10] Mating Done in 28 cycles (280.0 ns)
+# [GEN 11] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 11] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 11] Mating Done in 28 cycles (280.0 ns)
+# [GEN 12] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 12] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 12] Mating Done in 28 cycles (280.0 ns)
+# [GEN 13] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 13] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 13] Mating Done in 28 cycles (280.0 ns)
+# [GEN 14] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 14] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 14] Mating Done in 28 cycles (280.0 ns)
+# [GEN 15] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 15] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 15] Mating Done in 28 cycles (280.0 ns)
+# [GEN 16] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 16] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 16] Mating Done in 28 cycles (280.0 ns)
+# [GEN 17] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 17] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 17] Mating Done in 28 cycles (280.0 ns)
+# [GEN 18] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 18] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 18] Mating Done in 28 cycles (280.0 ns)
+# [GEN 19] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 19] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 19] Mating Done in 28 cycles (280.0 ns)
+# [GEN 20] Fitness Done in 28 cycles (280.0 ns)
+# [GEN 20] Sorting Done in 58 cycles (580.0 ns)
+# [GEN 20] Mating Done in 28 cycles (280.0 ns)
+# Simulation completed after 20 generations.
+# ** Note: $finish    : N:/Downloads/GA_Hardware_Accelerated/genetic_top_tb.sv(95)
+#    Time: 23420 ns  Iteration: 0  Instance: /genetic_top_tb
+# 1
+# Break in Module genetic_top_tb at N:/Downloads/GA_Hardware_Accelerated/genetic_top_tb.sv line 95
+# Printing not supported.
+# 
+# Error: couldn't open "//thoth.cecs.pdx.edu/Home06/sdumpala/Desktop/PRE_SILICON_ASSIGNMENTS/hw4_temp/TRANSCRIPT_FILE_FINAL": no such file or directory
+# 
